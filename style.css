@@ -17,7 +17,6 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 60%;
@@ -56,4 +55,52 @@ body {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#ou-id span::before {
+  content:'';
+  width: 140px;
+  height: 1px;
+  background-color: #DBDBDB;
+  margin-bottom: 5px;
+  display:inline-block;
+}
+
+#ou-id span::after {
+  content:'';
+  width: 140px;
+  height: 1px;
+  background-color: #DBDBDB;
+  margin-bottom: 5px;
+  display:inline-block;
+}
+
+#facebook {
+  color: #385185;
+  font-weight: bold;
+}
+
+#facebook span {
+  font-size: 16px;
+}
+
+#facebook img {
+  width: 20px;
+}
+
+#senha {
+  color: #385185;
+}
+
+.app {
+  align-self: center;
+}
+
+.app img {
+  width: 130px;
+}
+
+.app p {
+  margin-top:10px;
+  margin-bottom: 20px;
 }
